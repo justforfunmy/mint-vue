@@ -1,0 +1,45 @@
+@import './config.scss';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.fg {
+  flex: 1
+}
+
+.j-center {
+  justify-content: center
+}
+
+.a-center {
+  align-items: center
+}
+
+.top-blank {
+  margin-top: 44px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+}
+
+.item {
+  padding: 10px 15px;
+  font-size: 18px;
+  color: rgba(21, 101, 221, 0.5);
+  border-bottom: 1px solid lightgrey;
+}
